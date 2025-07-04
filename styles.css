@@ -1,2 +1,16 @@
-
+table {
+  border-collapse: separate;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+th {
+  text-align: center;
+}
+.black-cell {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 /* Your CSS Code here. */
